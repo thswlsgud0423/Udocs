@@ -1,12 +1,6 @@
 fastapi
-uvicorn
+uvicorns
 starlette
 pydantic
-selenium
-bs4
-pandas
 sqlalchemy
-requestscls
 black
-requests
-beautifulsoup4
