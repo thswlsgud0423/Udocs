@@ -1,6 +1,0 @@
-fastapi
-uvicorns
-starlette
-pydantic
-sqlalchemy
-black
