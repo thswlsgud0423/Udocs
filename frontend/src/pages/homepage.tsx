@@ -2,8 +2,10 @@ import "./homepage.css"
 
 export default function HomePage() {
   return (
-    <h1>
-        Hello TEst
-    </h1>
+    <div className="gex">
+        <div className="gex2">
+          tesEYTSHDFHSDFt
+        </div >
+    </div>
   );
 }
