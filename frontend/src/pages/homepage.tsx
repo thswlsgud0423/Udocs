@@ -19,8 +19,8 @@ const Homepage: React.FC = () => {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="mycourse.tsx">My Courses</Nav.Link>
               <NavDropdown title="Studies" id="studies-dropdown">
-                <NavDropdown.Item href="cs.tsx">CS</NavDropdown.Item>
-                <NavDropdown.Item href="ai.tsx">AI</NavDropdown.Item>
+                <NavDropdown.Item href="cshome.tsx">CS</NavDropdown.Item>
+                <NavDropdown.Item href="aihome.tsx">AI</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="About" id="about-dropdown">
                 <NavDropdown.Item href="aboutjku.tsx">About JKU</NavDropdown.Item>
