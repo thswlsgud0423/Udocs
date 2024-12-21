@@ -1,49 +1,74 @@
-/* The side navigation menu */
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s;
-    padding: 20px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #343a40 !important; /* Dark background */
+  border-bottom: 2px solid #28a745; /* Green highlight */
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1); /* White toggler icon */
+}
+
+.navbar-nav .nav-link {
+  color: #dcdcdc !important;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #28a745 !important; /* Green on hover */
+}
+
+.navbar-nav .nav-dropdown .dropdown-item {
+  color: #343a40 !important;
+}
+
+.navbar-nav .nav-dropdown .dropdown-item:hover {
+  background-color: #28a745 !important;
+  color: #ffffff !important;
+}
+
+/* Search Bar Styling */
+.form-control {
+  width: 250px;
+  border-radius: 20px;
+  border: 2px solid #28a745;
+}
+
+.btn-outline-success {
+  color: #28a745;
+  border-color: #28a745;
+  border-radius: 20px;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+/* Main Content Styling */
+.content {
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  min-height: 100vh; /* Full page height */
+  text-align: center;
+  padding: 40px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  color: #343a40;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}

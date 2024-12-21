@@ -17,16 +17,16 @@ const Homepage: React.FC = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="mycourse.html">My Courses</Nav.Link>
+              <Nav.Link href="mycourse.tsx">My Courses</Nav.Link>
               <NavDropdown title="Studies" id="studies-dropdown">
-                <NavDropdown.Item href="cs.html">CS</NavDropdown.Item>
-                <NavDropdown.Item href="ai.html">AI</NavDropdown.Item>
+                <NavDropdown.Item href="cs.tsx">CS</NavDropdown.Item>
+                <NavDropdown.Item href="ai.tsx">AI</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="About" id="about-dropdown">
-                <NavDropdown.Item href="aboutjku.html">About JKU</NavDropdown.Item>
-                <NavDropdown.Item href="aboutus.html">About Us</NavDropdown.Item>
+                <NavDropdown.Item href="aboutjku.tsx">About JKU</NavDropdown.Item>
+                <NavDropdown.Item href="aboutus.tsx">About Us</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="contact.html">Contact</Nav.Link>
+              <Nav.Link href="contact.tsx">Contact</Nav.Link>
             </Nav>
             <form className="d-flex" role="search">
               <input
