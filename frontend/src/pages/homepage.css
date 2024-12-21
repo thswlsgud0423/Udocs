@@ -1,13 +1,74 @@
-h1 {
-    font-size: xx-large;
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
 }
 
-.gex {
-    background-color: blue;
-    height: 100vh;
-    width: 100vw;
+/* Navbar Styling */
+.navbar {
+  background-color: #343a40 !important; /* Dark background */
+  border-bottom: 2px solid #28a745; /* Green highlight */
 }
 
-.gex2 {
-    color: brown;
+.navbar-brand {
+  color: #ffffff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1); /* White toggler icon */
+}
+
+.navbar-nav .nav-link {
+  color: #dcdcdc !important;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #28a745 !important; /* Green on hover */
+}
+
+.navbar-nav .nav-dropdown .dropdown-item {
+  color: #343a40 !important;
+}
+
+.navbar-nav .nav-dropdown .dropdown-item:hover {
+  background-color: #28a745 !important;
+  color: #ffffff !important;
+}
+
+/* Search Bar Styling */
+.form-control {
+  width: 250px;
+  border-radius: 20px;
+  border: 2px solid #28a745;
+}
+
+.btn-outline-success {
+  color: #28a745;
+  border-color: #28a745;
+  border-radius: 20px;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+/* Main Content Styling */
+.content {
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  min-height: 100vh; /* Full page height */
+  text-align: center;
+  padding: 40px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  color: #343a40;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
