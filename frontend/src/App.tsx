@@ -2,15 +2,22 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import HomePage from "./pages/homepage";
 import MyCourses from "./pages/mycourses";
 import AIHome from "./pages/aihome";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import Homepage from "./pages/homepage";
+import Python1 from "./pages/Python_1"
+
+
 
 const App = () => {
   return (
   <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/mycourses" element={<MyCourses />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/aihome" element={<AIHome />} />
-      </Routes>
+        <Route path="/python-1" element={<Python1 />} />
+        
+    </Routes>
     </BrowserRouter>
   );
 };

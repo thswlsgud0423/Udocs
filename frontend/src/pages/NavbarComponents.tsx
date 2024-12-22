@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./homepage.css";
-import {Link} from "react-router"
 
-const Homepage: React.FC = () => {
+const NavbarComponent: React.FC = () => {
   return (
     <>
-      {/* Navbar */}
+        {/* Navbar */}
       <Navbar bg="light" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand href="/">Course Review</Navbar.Brand>
@@ -78,13 +77,8 @@ const Homepage: React.FC = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      {/* Main Content */}
-      <div className="content mt-5 pt-5">
-        <h1>We going to da MOON</h1>
-      </div>
     </>
   );
 };
 
-export default Homepage;
+export default NavbarComponent;
