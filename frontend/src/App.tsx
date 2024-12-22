@@ -1,6 +1,4 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import HomePage from "./pages/homepage";
-import MyCourses from "./pages/mycourses";
 import AIHome from "./pages/aihome";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
